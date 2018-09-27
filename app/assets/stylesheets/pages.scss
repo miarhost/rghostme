@@ -122,7 +122,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Mark', Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -201,7 +201,7 @@ label {
 /* pagination */
 .pagination {
   margin: 24px 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Mark', Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -253,6 +253,36 @@ label {
   background-color: #ffffff;
   border-color: #dddddd;
 }
+
+.lead {
+  margin-bottom: 22px;
+  font-family: 'Mark-Book-Italic';
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: 24px;
+  }
+}
+.text-small {
+  font-size: 12px;
+}
+.text-large {
+  font-size: 20px;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-primary {
+  color: #444444;
+}
+a.text-primary:hover {
+  color: #2b2b2b;
+}
+.bg-primary {
+  color: #fff;
+  background-color: #444444;
+}
  /* MAIN */
 
 .allcontain{
@@ -289,12 +319,12 @@ text-decoration: none;
 	color: #C59E47;
 
 }
- 
+
 .callme{
 	list-style-type: none;
 	display: inline-block;
 	letter-spacing: 1px;
-	font-family: 'BebasNeue Regular';
+	font-family: 'Mark-Book';
 	font-size: 12.7px;	
 	color: #E7E7E7;
 	margin-bottom: 0px;
@@ -307,7 +337,7 @@ text-decoration: none;
  	list-style-type: none;
  	display: inline-block;
  	
-	font-family: 'BebasNeue Regular';
+	font-family: 'Mark-Bold';
 	font-size: 9pt;
 	color: #E7E7E7;
 	margin-bottom: 0px;
@@ -400,11 +430,11 @@ padding-left: 5%;
 	height:69px; 
 }
 @font-face {
-  font-family: "BebasNeue Regular";
-    src: url(../source/fonts/BebasNeue-Regular.otf) format("truetype");
+    font-family: 'Mark';
+    src: url('Mark-Book.eot');
 }
   #navbarontop > li > a {
-  	font-family: 'BebasNeue Regular';
+  	font-family: 'Mark';
   	font-size: 17px;
   	color: #313943;
     padding-top: 5px;
@@ -464,7 +494,7 @@ padding-left: 5%;
   border-bottom: 2px solid #C59E47; 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	font-family: 'BebasNeue Regular';
+	font-family: 'Mark Book';
 	font-size: 13pt;
 	color: #000;
 	background-color: rgba(255,255,255,.5);
@@ -588,9 +618,9 @@ float: right;
 /*------------------------- Start Carousel --------------------*/
 
 
-@font-face{
-	font-family: "OpenSans Semibold";
-	src: url(../source/fonts/OpenSans-Semibold.ttf) format("truetype");
+@font-face {
+    font-family: 'Mark';
+    src: url('Mark-Book-Italic.eot');
 
 }
 .carousel-caption{
@@ -598,17 +628,17 @@ float: right;
 }
 .carousel-caption>h2{
 	text-align: left;
-	font-family: 'OpenSans Semibold';
+	font-family: 'Mark Black';
 	font-size: 25.12pt;
 	text-shadow: 0 0px 0px rgba(0, 0, 0, .0);
 
 }
-@font-face{
-	font-family: "OpenSans Regular";
-	src:url(../source/fonts/OpenSans-Regular.ttf) format("truetype");
+@font-face {
+    font-family: 'Mark';
+    src: url('Mark-Book.eot');
 }
 .carousel-caption>h2>p{
-font-family: 'OpenSans Regular';
+font-family: 'Bark Book';
 font-size: 15.88pt;
 }
 .carousel-caption {
@@ -658,7 +688,7 @@ font-size: 10pt;
 	max-width: 1349px;
 }
 .searchtxt>h1{
-	font-family: "OpenSans Semibold";
+	font-family: "Mark Book";
 	font-size: 22pt;
 	color: #fff;
 	margin-top: 14px;
@@ -1612,7 +1642,8 @@ max-height: 950px;
   z-index: 1035;
 }
 
-
-
-
- 
+section {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
