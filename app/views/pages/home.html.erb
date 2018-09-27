@@ -1,1 +1,35 @@
 
+
+<!--_______________________________________ Carousel__________________________________ -->
+<div class="allcontain">
+ <div class="container">
+ <div class="owl-carousel owl-theme portfolio">
+
+                <div class="item">
+               <img src="<%= asset_path 'rkraftc.png' %>" alt="" class="img-fluid image"></a>
+                </div>
+                       
+                <div class="item">
+                  <img src="<%= asset_path 'rkraft2c.png' %>" alt="" class="img-fluid image">
+                </div>
+
+                <div class="item">
+                     <img src="<%= asset_path 'amec.png' %>" alt="" class="img-fluid image">
+                </div>
+
+ </div>
+</div>
+</div>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        1200:{
+            items:1.5
+        }
+    }
+})
+</script>
