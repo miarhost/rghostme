@@ -37,8 +37,9 @@
       </ul>
   </div>
   <!-- Navbar Up -->
-  <nav class="topnavbar navbar-default topnav">
     <div class="container">
+  <nav class="topnavbar navbar-default topnav">
+  
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
           <span class="sr-only"> Toggle navigation</span>
@@ -51,9 +52,10 @@
     </div>
     <div class="collapse navbar-collapse" id="upmenu">
       <ul class="nav navbar-nav" id="navbarontop">
-        <li class="active"><a href="<%= home_path(anchor: 'about') %>">ABOUT</a> </li>
-        <li class="dropdown">
+        <li class="nav-item active"><a href="<%= home_path(anchor: 'about') %>">ABOUT</a> </li>
+        <li class="nav-item dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATIONS <span class="caret"></span></a>
+        </li>
           <ul class="dropdown-menu dropdowncostume">
             <li><a href="<%= portfolio_path %>">Rkraft</a></li>
             <li><a href="#">Amethystlabs</a></li>
@@ -68,12 +70,11 @@
               <li><a href="3">Bootstrap/SASS</a></li>
             </ul>
         </li>
-        <li>
-          <a href="<%= home_path(anchor: 'contact') %>">CONTACT</a>
- 
+        <li class="nav-item">
+          <a href="<%= home_path(anchor: 'contact') %>">CONTACT</a><br>
         </li>
-        <li>
-        <span><button class="btn btn-primary">MAKE A PROPOSAL</button></span>
+        <li class="nav-item">
+        <a href="#"><button  class="btn btn-primary" style="margin-top: -4px">MAKE A PROPOSAL</button></a>
        </li>
       </ul>
     </div>
@@ -83,4 +84,16 @@
     <%= yield %>
   </div>
   </body>
+   <footer class="section-inverse">
+      <div class="container"> 
+        <div class="row content">
+          <div class="col-md-6">
+            <p>&copy;2018 Maria Tikhonova/rghost</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit">Code <a href="https://github.com/miarhost">on Github</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 </html>

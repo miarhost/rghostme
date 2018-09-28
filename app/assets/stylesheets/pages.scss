@@ -13,6 +13,8 @@
   color: #ffffff;
   background-color: #dd2424;
   border-color: #ff7473;
+  font-family: 'Mark';
+  font-style: light;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -432,17 +434,18 @@ padding-left: 5%;
 	background: none;
 }
 .topnavbar .container{
-	margin-left: 107px !important;
+	margin-left: 30px !important;
 }
 .toggle-costume{
 	float: left;
 }
 
 #navbarontop{
-	padding-left: 312px;
+	padding-left: 150px;
 	padding-top: 17px;
 	height:69px; 
-}
+ }
+
 @font-face {
     font-family: 'Mark';
     src: url('Mark-Book.eot');
@@ -1660,4 +1663,119 @@ section {
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+/* ----------------Footer---------------- */
+@font-face {
+    font-family: 'Mark';
+    src: url('Mark-Book.eot');
+}
+.footer {
+  background-color: #111;
+}
+
+blockquote {
+  padding: 11px 22px;
+  margin: 0 0 22px;
+  font-size: 16px;
+  border-left: 5px solid #444444;
+}
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #999999;
+}
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+.blockquote-reverse,
+blockquote.pull-right {
+  border-right: 5px solid #444444;
+}
+address {
+  margin-bottom: 22px;
+  line-height: 1.42857143;
+}
+.panel {
+  margin-bottom: 22px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+}
+.panel-primary {
+  border-color: #444444;
+}
+.panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #444444;
+  border-color: #444444;
+}
+.panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #444444;
+}
+.panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #444444;
+}
+.panel-primary .panel-title {
+  font-weight: 300;
+}
+.panel-primary .panel-title a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+a.badge:hover,
+a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #444444;
+  background-color: #ffffff;
+}
+.nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+
+.section-inverse h1,
+.section-inverse h2,
+.section-inverse h3,
+.section-inverse h4,
+.section-inverse h5,
+.section-inverse h6,
+.section-inverse p
+{
+  color: #fff;
+}
+.section-inverse {
+   background-color: #111;
+   font-family: 'Mark';
+   color: #fff
+}
+.box {
+  margin-bottom: 30px;
+}
+
+.content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #fff;
+
+}
+.content p.credit {
+
+  text-align: right;
+  color: #fff;
+}
+.content p.credit a {
+
+  color: #fff;
 }
