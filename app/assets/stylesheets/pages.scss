@@ -254,26 +254,38 @@ label {
   border-color: #dddddd;
 }
 
+.heading {
+    font-family: 'Mark';
+}
+
 .lead {
-  margin-bottom: 22px;
-  font-family: 'Mark-Book-Italic';
-  font-size: 18px;
+  margin-bottom: 18px;
+  font-family: 'Mark';
+  font-size: 22px;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 .text-small {
-  font-size: 12px;
+font-family: 'Mark';
+  font-size: 14px;
+}
+.text-regular {
+font-family: 'Mark';
+font-style: italic;
+font-size: 14px;
 }
 .text-large {
+font-family: 'Mark';
   font-size: 20px;
 }
 .text-italic {
   font-style: italic;
 }
 .text-primary {
+font-family: 'Mark';
   color: #444444;
 }
 a.text-primary:hover {
@@ -283,7 +295,9 @@ a.text-primary:hover {
   color: #fff;
   background-color: #444444;
 }
+
  /* MAIN */
+
 
 .allcontain{
 	max-width: 1366px;
@@ -324,7 +338,7 @@ text-decoration: none;
 	list-style-type: none;
 	display: inline-block;
 	letter-spacing: 1px;
-	font-family: 'Mark-Book';
+	font-family: 'Mark';
 	font-size: 12.7px;	
 	color: #E7E7E7;
 	margin-bottom: 0px;
@@ -337,7 +351,7 @@ text-decoration: none;
  	list-style-type: none;
  	display: inline-block;
  	
-	font-family: 'Mark-Bold';
+	font-family: 'Mark';
 	font-size: 9pt;
 	color: #E7E7E7;
 	margin-bottom: 0px;
@@ -1009,7 +1023,7 @@ font-weight: bold;
 }
 
  
-/*   ---------------------------   fetured cars   ---------------------------------    */
+/*   --------------------------- Technologies ---------------------------------    */
 @font-face{
 	font-family: "OpenSans-Light";
 	src: url(../source/fonts/OpenSans-Light.ttf) format("truetype");
