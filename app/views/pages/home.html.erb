@@ -4,23 +4,19 @@
 
  <section>
  <div class="owl-carousel owl-theme portfolio">
-
-                <div class="item">
-               <img src="<%= asset_path 'rkraftc.png' %>" alt="" class="img-fluid image"></a>
-                </div>
-                       
-                <div class="item">
-                  <img src="<%= asset_path 'rkraft2c.png' %>" alt="" class="img-fluid image">
-                </div>
-
-                <div class="item">
-                     <img src="<%= asset_path 'amec.png' %>" alt="" class="img-fluid image">
-                </div>
-
+   <div class="item">
+     <img src="<%= asset_path 'rkraftc.png' %>" alt="" class="img-fluid image">
+   </div>
+   <div class="item">
+     <img src="<%= asset_path 'rkraft2c.png' %>" alt="" class="img-fluid image">
+   </div>
+   <div class="item">
+     <img src="<%= asset_path 'amec.png' %>" alt="" class="img-fluid image">
+   </div>
  </div>
-</div>
-</div>
-    <section id="about" class="text">
+</section>
+<!-- About Me text section -->
+ <section id="about" class="text" style="background-color: #eee;">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -34,10 +30,41 @@
           </div>
         </div>
       </div>
+ </section>
+<!-- Techologies --> 
+    <section id="technologies" style="background-color: #fff">
+      <div class="container">
+        <div class="row technologies">
+          <div class="col-md-12">
+            <h2 class="heading">Tools/Technologies</h2>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="box">
+                  <div class="icon"><i class="devicon-apache-plain"></i></i></div>
+                  <h4>Apache</h4>
+                  <p>Before attempting to organize our thoughts on Internet architecture, let’s look for a human analogy.
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box">
+                  <div class="icon"> <i class="devicon-ruby-plain"></i></i></div>
+                  <h4>Ruby</h4>
+                  <p>Protocol layering has conceptual and structural advantages [RFC 3439]</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box">
+                  <div class="icon"><i class="devicon-bootstrap-plain"></i></i></div>
+                  <h4>Bootstrap/Sass</h4>
+                  <p>The fact that the Internet lacks two layers found in the OSI reference model poses a couple of interesting questions. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-<section>
-</section>
+   
 <script>
 $('.owl-carousel').owlCarousel({
     loop:true,
