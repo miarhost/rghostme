@@ -314,6 +314,10 @@ a.text-primary:hover {
 	padding: 0px;
 }
 
+h1, h2, h3, p {
+  font-family: "Mark";
+}
+
 .socialicon{
 list-style-type: none;
 display: inline-block;
@@ -417,6 +421,31 @@ padding-left: 5%;
 }
 .text-gray-lighter {
   color: #cdcdcd;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-size: 24px;
+  color: #333;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+.icon.brand-secondary {
+  border-color: #746ea9;
+  color: #746ea9;
+}
+.icon.brand-terciary {
+  border-color: #41a6ca;
+  color: #41a6ca;
+}
+.icon.brand-four {
+  border-color: #34314c;
+  color: #34314c;
 }
 
 /*----------------------End of a Header --------------------*/
@@ -1027,12 +1056,13 @@ font-weight: bold;
 
  
 /*   --------------------------- Technologies ---------------------------------    */
-@font-face{
-	font-family: "OpenSans-Light";
-	src: url(../source/fonts/OpenSans-Light.ttf) format("truetype");
+@font-face {
+    font-family: 'Mark';
+    src: url('Mark-Light.eot');
 }
+
 .feturedsection>h1{
-	font-family: "OpenSans-Light";
+	font-family: "Mark Light";
 	font-size: 41px;
 	padding-top: 46px;
 	padding-bottom: 50px;
