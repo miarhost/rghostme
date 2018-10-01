@@ -25,16 +25,16 @@
   
   <div class="header">
       <ul class="socialicon">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="#"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/rghostme"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/MariaTikhonova1"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/mariatikhonovarubydev/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/miarhost"><i class="fab fa-github"></i></a></li>
       </ul>
       <ul class="callme">
         <li>Call or message : +38(063)561-87-23 </li>
       </ul>
       <ul class="logreg">
-        <li><a href="#">Contact </a> </li>
+        <li><a href="<%= home_path(anchor: 'contact') %>">Contact </a> </li>
         <li><a href="https://github.com/miarhost"><span class="register">Github</span></a></li>
       </ul>
   </div>
@@ -58,8 +58,8 @@
         <li class="nav-item dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATIONS <span class="caret"></span></a>
           <ul class="dropdown-menu dropdowncostume">
-            <li><a href="<%= portfolio_path %>">Rkraft</a></li>
-            <li><a href="#">Amethystlabs</a></li>
+            <li><a href="<%= portfolio_path(anchor: 'rkraft') %>">Rkraft</a></li>
+            <li><a href="<%= portfolio_path(anchor: 'ame') %>">Amethystlabs</a></li>
             <li><a href="#">Highpoly</a></li>
           </ul>
         </li>
