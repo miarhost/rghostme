@@ -34,7 +34,12 @@
         <li>Call or message : +38(063)561-87-23 </li>
       </ul>
       <ul class="logreg">
-        <li><a href="<%= home_path(anchor: 'contact') %>">Contact </a> </li>
+        <% if current_page? home_path %>
+        <li><a href="<%= portfolio_path %>">Portfolio </a> </li>
+        <% else %>
+        <li><a href="<%= home_path %>">Home </a> </li>
+        <% end %>
+        <li><a href="<%= home_path(anchor: 'contact') %>"><span class="register">Contact </a> </li>
         <li><a href="https://github.com/miarhost"><span class="register">Github</span></a></li>
       </ul>
   </div>
