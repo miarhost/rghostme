@@ -660,7 +660,30 @@ float: right;
 
 
 
-/* ------------------------ End Navbar On Top -----------------*/
+/* ------------------------ End Navbar On Top , Title-----------------*/
+
+@font-face {
+    font-family: 'Mark-Black';
+    src: url('Mark-Black.eot');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('Pacifico.ttf') format("truetype");
+}
+.title {
+  font-size: 3em;
+  color: #333;
+  font-family: 'Mark';
+  font-style: bold;
+  }
+
+.title-italics {
+  font-family: 'Pacifico';
+  font-size: 20px;
+  font-style: italic;
+  color: #585555;
+}
 /*------------------------- Start Carousel --------------------*/
 
 
@@ -1638,7 +1661,7 @@ max-height: 950px;
 }
 .portfolio .item {
   list-style-type: none;
-  margin: 0 5px;
+  margin: 0 0px;
   background: #fff;
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
