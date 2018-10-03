@@ -450,6 +450,11 @@ padding-left: 5%;
 
 /*----------------------End of a Header --------------------*/
  
+ @font-face {
+    font-family: 'Mark';
+    src: url(asset_path('Mark-Book.eot'));
+ }
+
 .logo{
 	position: absolute;
 	float: left;
@@ -495,15 +500,15 @@ padding-left: 5%;
   #navbarontop > li >a:hover{
   	background-color: none!important;
   	background: none!important;
-  	border-bottom: 2px solid #C59E47;
+  	border-bottom: 2px solid #f04e4e;
   }
  
 
  #navbarontop>button{
  	background: none;
  	background-color: none;
- 	border: 2px solid #C59E47;
- 	font-family: 'BebasNeue Regular';
+ 	border: 2px solid #f04e4e;
+ 	font-family: 'Mark Book';
  	margin-left: 60px;
   	font-size: 16.99px;
   	color: #313943;
@@ -513,7 +518,7 @@ padding-left: 5%;
   	padding-bottom:-2px;
  }
  #navbarontop>button:hover{
- 	background-color: #C59E47;
+ 	background-color: #f04e4e;
  	color: #fff;
  }
  .dropdowncostume{
@@ -533,11 +538,11 @@ padding-left: 5%;
 #navbarontop .open > a:hover,
 #navbarontop .open > a:focus {
 	background-color: none!important;
-  border-color: #C59E47;
+  border-color: #f04e4e;
 }
 #navbarontop a:focus {
   outline: none;
-  border-bottom: 2px solid #C59E47; 
+  border-bottom: 2px solid #f04e4e; 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	font-family: 'Mark Book';

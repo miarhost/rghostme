@@ -59,7 +59,7 @@
     font-family: 'Mark';
     src: url(asset_path('Mark-Book.eot'));
     src: local('Mark Book'), local('Mark-Book'),
-        font_url( asset_path('Mark-Book.eot?#iefix')) format('embedded-opentype'),
+        font-url( asset_path('Mark-Book.eot?#iefix')) format('embedded-opentype'),
         font-url( asset_path('Mark-Book.woff')) format('woff'),
         font-url( asset_path('Mark-Book.ttf')) format('truetype');
     font-weight: normal;
@@ -167,11 +167,11 @@
 
 @font-face {
     font-family: 'Mark';
-    src: url('Mark-Medium.eot');
+    src: url(asset_path('Mark-Medium.eot'));
     src: local('Mark Medium'), local('Mark-Medium'),
-        url('Mark-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Mark-Medium.woff') format('woff'),
-        url('Mark-Medium.ttf') format('truetype');
+        font-url(asset_path('Mark-Medium.eot?#iefix')) format('embedded-opentype'),
+        font-url(asset_path('Mark-Medium.woff')) format('woff'),
+        font-url(asset_path('Mark-Medium.ttf')) format('truetype');
     font-weight: 500;
     font-style: normal;
 }
