@@ -24,11 +24,11 @@
 
 @font-face {
     font-family: 'Mark';
-    src: url('Mark-Medium-Italic.eot');
+    src: url(asset_path('Mark-Medium-Italic.eot'));
     src: local('Mark Medium-Italic'), local('Mark-Medium-Italic'),
-        url('Mark-Medium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Mark-Medium-Italic.woff') format('woff'),
-        url('Mark-Medium-Italic.ttf') format('truetype');
+        font-url('Mark-Medium-Italic.eot?#iefix') format('embedded-opentype'),
+        font-url('Mark-Medium-Italic.woff') format('woff'),
+        font-url('Mark-Medium-Italic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
@@ -125,9 +125,9 @@
     font-family: 'Mark';
     src: url(asset_path('Mark-Bold.eot'));
     src: local('Mark Bold'), local('Mark-Bold'),
-        url(asset_path('Mark-Bold.eot?#iefix')) format('embedded-opentype'),
-        url(asset_path('Mark-Bold.woff')) format('woff'),
-        url(asset_path('Mark-Bold.ttf')) format('truetype');
+        font-url(asset_path('Mark-Bold.eot?#iefix')) format('embedded-opentype'),
+        font-url(asset_path('Mark-Bold.woff')) format('woff'),
+        font-url(asset_path('Mark-Bold.ttf')) format('truetype');
     font-weight: bold;
     font-style: normal;
 }
