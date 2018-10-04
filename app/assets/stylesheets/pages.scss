@@ -1628,66 +1628,6 @@ padding-left: 0px;
 }
 /*  -----------------      Images    ------------------------ */
 
-.owl-carousel .owl-controls .owl-page.active span,
-.owl-theme .owl-controls .owl-page.active span,
-.owl-carousel .owl-controls.clickable .owl-page:hover span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #ff7473;
-  opacity: .2;
-  filter: alpha(opacity=20);
-}
-.owl-carousel .owl-controls .owl-buttons,
-.owl-theme .owl-controls .owl-buttons {
-  position: absolute;
-  top: 5px;
-  right: 0;
-}
-.owl-carousel .owl-controls .owl-buttons div,
-.owl-theme .owl-controls .owl-buttons div {
-  width: 120px;
-  height: 350px;
-  line-height: 25px;
-  margin: 0 5px 0 0;
-  font-size: 18px;
-  background-color: #ffffff;
-  padding: 0;
-  background: #fff;
-  border-radius: 5px;
-  vertical-align: middle;
-}
-
-.portfolio {
-  padding: 0;
-  margin-bottom: 40px;
-}
-.portfolio .item {
-  list-style-type: none;
-  margin: 0 0px;
-  background: #fff;
-  padding-bottom: 60px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.porffolio .item .porffolio  {
-  position: relative;
-  padding: 20px;
-}
-.porffolio  .item .porffolio:before,
-.porffolio  .item .porffolio:after {
-  content: " ";
-  display: table;
-}
-.porffolio  .item .porffolio:after {
-  clear: both;
-}
-.porffolio .item .porffolio.text {
-  color: #999999;
-  margin-bottom: 50px;
-  font-size: 14px;
-  font-weight: 400;
-}
-
 
 
 /* MODAL */
