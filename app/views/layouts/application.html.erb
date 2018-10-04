@@ -34,10 +34,10 @@
         <li>Call or message : +38(063)561-87-23 </li>
       </ul>
       <ul class="logreg">
-        <% if current_page? root_path %>
-        <li><a href="<%= portfolio_path %>">Portfolio </a> </li>
-        <% else %>
+        <% if current_page? portfolio_path %>
         <li><a href="<%= home_path %>">Home </a> </li>
+        <% else %>
+        <li><a href="<%= portfolio_path %>">Portfolio </a> </li>
         <% end %>
         <li><a href="<%= home_path(anchor: 'contact') %>"><span class="register">Contact </a> </li>
         <li><a href="https://github.com/miarhost"><span class="register">Github</span></a></li>
@@ -85,12 +85,13 @@
    <footer class="section-inverse">
       <div class="container"> 
         <div class="row content">
-          <div class="col-md-6">
-            <p>&copy;2018 Maria Tikhonova/rghost</p>
-          </div>
-          <div class="col-md-6">
+            <div class="col-sm-3">
+            <p class="credit-left">&copy;2018 Maria Tikhonova/rghost</p>
+            </div>
+            <div class="col-md-6">
+            <p class="credit-mid" style="color: #8d8a8a; font-size: 12px;">Photo by: Taras Bovt</p>
+            </div>
             <p class="credit">Code <a href="https://github.com/miarhost">on Github</a></p>
-          </div>
         </div>
       </div>
     </footer>
