@@ -16,6 +16,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'jbuilder', '~> 2.5'
 gem 'owlcarousel-rails', '~> 2.2', '>= 2.2.3.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'sqlite3'
